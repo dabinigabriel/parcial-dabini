@@ -7,7 +7,7 @@ body {
     background-position: center;
     background-attachment: fixed;
 
-    color: white;
+    color: black;
     font-family: Arial, sans-serif;
 }
 
@@ -89,9 +89,96 @@ nav a:active {
     color: #cfcfcf;
 }
 
-/* LINEA DIVISORIA */
-.linea {
-    width: 1px;
-    height: 2rem;
+
+/* FOOTER */
+footer {
     background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem 2rem;
 }
+
+/* MAIL */
+#mail {
+    color: #09316D;
+    text-decoration: none;
+
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+
+}
+
+/* HOVER */
+#mail:hover {
+    opacity: 0.7;
+}
+/* MAIN bio */
+#main-bio {
+    width: 100%;
+    
+    background-color: rgba(0, 0, 0, 0.75);
+
+    padding: 2rem;
+
+    box-sizing: border-box;
+}
+
+/* SECCIONES bio */
+#bio {
+    margin-bottom: 3rem;
+}
+
+/* TITULOS bio */
+main h1,
+main h2,
+main h3,
+main h4 {
+    font-family: "Arvo", serif;
+    color: white;
+}
+
+/* PARRAFOS bio */
+#main-bio p,
+#main-bio div {
+    font-family: "Lato", sans-serif;
+    color: white;
+
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+/* IMAGEN bio */
+#foto-bio img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+
+    display: block;
+
+    margin: 2rem auto;
+}
+
+/* FRASE DESTACADA bio */
+#frase-destacada {
+    background-color: #09316D;
+
+    padding: 1.5rem;
+    margin: 2rem 0;
+
+    border-left: 5px solid white;
+
+    font-style: italic;
+}
+
+/* TEXTO DESTACADO bio */
+#texto-destacado {
+    background-color: rgba(255, 255, 255, 0.1);
+
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
