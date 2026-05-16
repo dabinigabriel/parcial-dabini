@@ -273,3 +273,56 @@ main h3 {
 
     margin-top: 2rem;
 }
+main p {
+    font-family: "Arial", sans-serif;
+    color: white;
+    line-height: 1.8;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+
+
+
+.bloque-ideas {
+    margin-bottom: 5rem;
+}
+
+.galeria {
+    display: flex;
+
+    gap: 2rem;
+
+    justify-content: center;
+
+    margin-top: 3rem;
+
+}
+
+
+.galeria img {
+    width: 45%;
+    max-width: 350px;
+
+    border-radius: 0.5rem;
+
+}
+
+
+.frase-ideas {
+    background-color: #09316D;
+
+    padding: 2rem;
+
+    margin-top: 2rem;
+
+    border-left: 5px solid white;
+}
+
+.frase-ideas p {
+    margin: 0;
+
+    font-style: italic;
+
+    font-size: 1.1rem;
+}
