@@ -29,7 +29,7 @@ header {
 
     color: white;
 
-    font-family: "Lato", sans-serif;
+    font-family: "Arial", sans-serif;
     font-weight: 400;
     font-style: normal;
 
@@ -43,7 +43,7 @@ header {
     color: white;
     text-align: right;
 
-    font-family: "Lato", sans-serif;
+    font-family: "Arial", sans-serif;
     font-weight: 300;
     font-style: normal;
 
@@ -74,7 +74,7 @@ nav a {
     color: white;
     text-decoration: none;
 
-    font-family: "Lato", sans-serif;
+    font-family: "Arial", sans-serif;
     font-weight: 300;
     font-size: 1.1rem;
 }
@@ -106,7 +106,7 @@ footer {
     color: #09316D;
     text-decoration: none;
 
-    font-family: "Lato", sans-serif;
+    font-family: "Arial", sans-serif;
     font-weight: 300;
     font-size: 1.1rem;
 
@@ -144,7 +144,7 @@ main h4 {
 /* PARRAFOS bio */
 #main-bio p,
 #main-bio div {
-    font-family: "Lato", sans-serif;
+    font-family: "Arial", sans-serif;
     color: white;
 
     line-height: 1.7;
@@ -182,3 +182,94 @@ main h4 {
     margin-top: 2rem;
 }
 
+/* MAIN */
+main {
+    background-color: rgba(0, 0, 0, 0.78);
+
+    padding: 3rem;
+
+    box-sizing: border-box;
+}
+
+/* TITULO PRINCIPAL */
+main h1 {
+    font-family: "Arvo", serif;
+    font-size: 3rem;
+
+    color: white;
+
+    margin-bottom: 2rem;
+}
+
+/* SUBTITULOS */
+main h2,
+main h3 {
+    font-family: "Arvo", serif;
+
+    color: white;
+
+    margin-top: 2rem;
+}
+
+
+.par-trayectoria {
+    font-family: "Arial", sans-serif;
+
+    color: white;
+
+    line-height: 1.8;
+    font-size: 1rem;
+
+    margin-bottom: 1.5rem;
+}
+
+
+#bloque-contenido {
+    margin-bottom: 4rem;
+}
+
+
+#trayectoria-img {
+    width: 100%;
+    max-width: 800px;
+
+    display: block;
+
+    margin: 2rem auto;
+
+    border-radius: 0.5rem;
+}
+
+
+
+.lista-destacada {
+    background-color: rgba(255, 255, 255, 0.08);
+
+    padding: 2rem;
+
+    margin-top: 2rem;
+}
+
+#lista-destacada ul {
+    padding-left: 2rem;
+}
+
+#lista-destacada li {
+    margin-bottom: 1rem;
+
+    font-family: "Arial", sans-serif;
+    
+    color: white;
+
+}
+
+
+.video {
+    margin-top: 4rem;
+}
+
+.video iframe {
+    border: none;
+
+    margin-top: 2rem;
+}
